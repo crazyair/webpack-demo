@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "webpack serve --progress --mode development",
+    "build": "webpack --progress --mode production --profile"
+  },
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  }
+}
